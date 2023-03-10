@@ -18,6 +18,7 @@ use ParkManager\Module\WebhostingModule\Infrastructure\Service\Package\Capabilit
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use function realpath;
 
+// @author The Lobster Lord
 final class ParkManagerWebhostingModule extends AbstractParkManagerModule
 {
     public function build(ContainerBuilder $container): void
